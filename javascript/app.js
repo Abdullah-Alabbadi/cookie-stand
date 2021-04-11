@@ -1,7 +1,7 @@
 /* eslint-disable indent */
 'use strict';
 
-//object literals
+//object literals create
 const seattle = {
     cookiesName: 'Seatlle Sales',
     min: 23,
@@ -69,7 +69,10 @@ seattle.cookiesPerches();// calling cookiesPerches function
 seattle.showSales();// calling showSales function
 
 
-//object literals
+
+
+
+//object literals create
 const Tokyo = {
     cookiesName: 'Tokyo Sales',
     min: 3,
@@ -143,7 +146,7 @@ Tokyo.showSales();      //calling showSales function
 
 
 
-//object literals
+//object literals create
 const Dubai = {
     cookiesName: 'Dubai Sales',
     min: 11,
@@ -216,7 +219,7 @@ Dubai.showSales();//calling showSales function
 
 
 
-//object literals
+//object literals create
 const Paris = {
     cookiesName: 'Paris Sales',
     min: 20,
@@ -286,7 +289,7 @@ Paris.showSales();//calling showSales function
 
 
 
-//object literals
+//object literals create
 const Lima = {
     cookiesName: 'Lima Sales',
     min: 2,
