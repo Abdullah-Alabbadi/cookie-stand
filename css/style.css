@@ -1,0 +1,7 @@
+body {
+  background-color: rgb(209, 127, 127);
+}
+#listSalesCookies div {
+  display: inline-block;
+  padding: 50px;
+}
