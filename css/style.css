@@ -1,7 +1,21 @@
 body {
-  background-color: rgb(209, 127, 127);
+  background-color: rgb(211, 142, 142);
 }
-#listSalesCookies div {
+#salesCookies div {
   display: inline-block;
   padding: 50px;
+}
+table {
+  margin: 40px;
+  text-align:left;
+}
+
+#sales {
+  background-size: cover;
+}
+#sales header {
+  color: rgb(61, 22, 22);
+}
+#sales table {
+  opacity: 0.9;
 }
