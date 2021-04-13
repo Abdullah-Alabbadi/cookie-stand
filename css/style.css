@@ -1,5 +1,6 @@
 body {
   background-color: rgb(211, 142, 142);
+  text-align: center;
 }
 #salesCookies div {
   display: inline-block;
