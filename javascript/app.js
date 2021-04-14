@@ -2,6 +2,7 @@
 
 let dataSalesCookies = document.getElementById('dataSalesCookies');
 let maintable = document.createElement('table');
+maintable.setAttribute("id","maint");
 dataSalesCookies.appendChild(maintable);
 maintable.setAttribute('border', '15');
 maintable.setAttribute('cellpadding', '11');
@@ -174,9 +175,31 @@ function renderTablefoot() {
 
 
 
-renderTablehead(seattle,tokyo,dubai,paris,lima);
-renderTablebody(seattle,tokyo,dubai,paris,lima);
-renderTablefoot(seattle,tokyo,dubai,paris,lima);
+const newForm = document.getElementById('cookiesSale');
+newForm.addEventListener('submit', catchSubmitting);
+
+function catchSubmitting(event) {
+  event.preventDefault();
+
+  let place = event.target.namefield.value;
+  let max = parseInt(event.target.maxval.value);
+  let min = parseInt(event.target.minval.value);
+  let avg = parseInt(event.target.Avarage.value);
+  console.log(place,max,min,avg);
+
+  let newForm = new DifferantPlace(place, min, max, avg);
+  newForm.randomNumber();
+  newForm.cookiesPurchased();
+  newForm.render();
+}
+
+
+
+
+
+renderTablehead(seattle, tokyo, dubai, paris, lima);
+renderTablebody(seattle, tokyo, dubai, paris, lima);
+renderTablefoot(seattle, tokyo, dubai, paris, lima);
 
 
 
