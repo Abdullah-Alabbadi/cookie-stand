@@ -1,35 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Coda+Caption:wght@800&display=swap");
+
 body {
-  text-align: center;
+  
+  font-family: Arial, Helvetica, sans-serif;
 }
 
+#hometitle {
+      background: content-box;
+      color: white;
+
+    padding-left: 55px;
+    
+    margin-right: 1059px;
+    font-family: "Coda Caption", sans-serif;}
+
+#hometitle2 {
+ 
+  padding-left: 55px;
+  color: white;
+
+  font-size: 140%;
+  background-attachment: fixed;
+
+  font-weight: bold;
+  text-decoration: none;
+  font-family: sans-serif;
+}
+#saletitle {
+  padding-left: 55px;
+  font-family: "Coda Caption", sans-serif;
+}
+#saletitle2 {
+  padding-left: 55px;
+color: black;
+font-size: 100%;
+  font-weight: bold;
+  font-family: "Coda Caption", sans-serif;
+  text-decoration: none;
+}
 .body-of-index {
-  background-image: url("/img/main2.jpg");
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url("/img/maingallary.jpg");
   background-size: cover;
 }
 
 #sales {
-  background-image: url("/img/main3.jpg");
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url("/img/main2.jpg");
   background-size: cover;
 }
 #contactinfo {
   width: 100%;
-  
-
+  font-family: Arial, Helvetica, sans-serif;
   text-align: left;
-  background-color: tomato;
+  color: white;
   margin-top: 390px;
 }
 
 main h3 {
-  background-color: tomato;
+  color: white;
 }
 
-#salesCookies div {
-  display: inline-block;
-  padding: 50px;
-}
 table {
-  margin: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 50px;
   text-align: left;
 }
 
@@ -37,8 +71,44 @@ table {
   background-size: cover;
 }
 #sales header {
-  color: rgb(61, 22, 22);
 }
-#sales table {
-  opacity: 0.9;
+
+
+body form {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body form:nth-child(3) label {
+  position: relative;
+
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+}
+#cookiesSale {
+  padding-top: 30px;
+}
+
+#labl1 {
+  margin-left: -70px;
+}
+
+#labl2 {
+  margin-left: -1px;
+}
+
+#labl3 {
+  margin-left: 4px;
+}
+
+#labl4 {
+  margin-left: -40px;
+}
+
+#subbt {
+  background-color: black;
+  padding: 7px 25px;
+  color: #969696;
+  font-weight: 600;
+  margin: 10px 630px;
 }
