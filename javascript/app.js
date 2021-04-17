@@ -5,11 +5,17 @@ let maintable = document.createElement('table');
 maintable.setAttribute("id","maint");
 dataSalesCookies.appendChild(maintable);
 maintable.setAttribute('border', '15');
-maintable.setAttribute('cellpadding', '11');
+maintable.setAttribute('cellpadding', '8');
 let caption = document.createElement('caption');
 maintable.appendChild(caption);
 caption.textContent = 'Salmon Cookies Sales';
 
+caption.style.fontFamily = 'Coda Caption';
+caption.style = 'font-weight:900';
+caption.style.fontSize='260%';
+caption.style.paddingRight='0px';
+caption.style.paddingBottom='10px';
+caption.style.color='gray';
 
 let workTime = ['06:00 Am', '07:00 Am', '08:00 Am', '09:00 Am', '10:00 Am', '11:00 Am', '12:00 Pm', '01:00 Pm', '02:00 Pm', '03:00 Pm', '04:00 Pm', '05:00 Pm', '06:00 Pm', '07:00 Pm'];
 let salmonCookieObjects = [];
