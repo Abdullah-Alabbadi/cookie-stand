@@ -46,12 +46,13 @@ img.logosales {
   font-family: sans-serif;
 }
 #saletitle {
+  color: white;
   padding-left: 55px;
   font-family: "Coda Caption", sans-serif;
 }
 #saletitle2 {
   padding-left: 55px;
-  color: black;
+  color: white;
   font-size: 100%;
   font-weight: bold;
   font-family: "Coda Caption", sans-serif;
@@ -59,18 +60,21 @@ img.logosales {
 }
 .body-of-index {
   font-family: Arial, Helvetica, sans-serif;
-  background-color: rgb(159 92 125);;
-  background-size: cover;
+  /* background-color: rgb(159 92 125); */
+  background-image: url(../img/maingallary.jpg);
+  background-size:100%;
 }
 
 #sales {
   font-family: Arial, Helvetica, sans-serif;
-  background-color:lightcoral;
+  /* background-color:lightcoral; */
+  background-image: url(../img/main.jpg);
   background-size: cover;
 }
 #contactinfo {
   padding-top: 2603px;
   font-size: 30px;
+
 }
 
 main h3 {
