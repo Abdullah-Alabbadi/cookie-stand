@@ -59,13 +59,13 @@ img.logosales {
 }
 .body-of-index {
   font-family: Arial, Helvetica, sans-serif;
-  background-image: url("/css/main.jpg");
+  background-color: rgb(159 92 125);;
   background-size: cover;
 }
 
 #sales {
   font-family: Arial, Helvetica, sans-serif;
-  background-image: url("/css/maingallary.jpg");
+  background-color:lightcoral;
   background-size: cover;
 }
 #contactinfo {
