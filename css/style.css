@@ -1,21 +1,40 @@
 @import url("https://fonts.googleapis.com/css2?family=Coda+Caption:wght@800&display=swap");
 
 body {
-  
   font-family: Arial, Helvetica, sans-serif;
 }
 
+img.logohome {
+  display: initial;
+  width: 20%;
+  height: 20%;
+  position: relative;
+  padding-left: 770px;
+  margin-top: -100px;
+  top: -10px;
+  right: -31px;
+}
+img.logosales {
+  display: initial;
+  width: 20%;
+  height: 20%;
+  position: relative;
+  padding-left: 770px;
+  margin-top: -100px;
+  top: -10px;
+  right: -3px;
+}
 #hometitle {
-      background: content-box;
-      color: white;
+  background: content-box;
+  color: white;
 
-    padding-left: 55px;
-    
-    margin-right: 1059px;
-    font-family: "Coda Caption", sans-serif;}
+  padding-left: 55px;
+
+  margin-right: 1059px;
+  font-family: "Coda Caption", sans-serif;
+}
 
 #hometitle2 {
- 
   padding-left: 55px;
   color: white;
 
@@ -32,33 +51,40 @@ body {
 }
 #saletitle2 {
   padding-left: 55px;
-color: black;
-font-size: 100%;
+  color: black;
+  font-size: 100%;
   font-weight: bold;
   font-family: "Coda Caption", sans-serif;
   text-decoration: none;
 }
 .body-of-index {
   font-family: Arial, Helvetica, sans-serif;
-  background-image: url("/img/maingallary.jpg");
+  background-image: url("/img/main.jpg");
   background-size: cover;
 }
 
 #sales {
   font-family: Arial, Helvetica, sans-serif;
-  background-image: url("/img/main2.jpg");
+  background-image: url("/img/maingallary.jpg");
   background-size: cover;
 }
 #contactinfo {
-  width: 100%;
-  font-family: Arial, Helvetica, sans-serif;
-  text-align: left;
-  color: white;
-  margin-top: 390px;
+  padding-top: 2603px;
+  font-size: 30px;
 }
 
 main h3 {
+  background-attachment: fixed;
   color: white;
+  position: relative;
+  padding-left: 200px;
+  text-decoration: none;
+}
+
+main h3:nth-child(2) {
+  float: right;
+  padding-right: 420px;
+  bottom: 244px;
 }
 
 table {
@@ -72,7 +98,6 @@ table {
 }
 #sales header {
 }
-
 
 body form {
   text-align: center;
@@ -111,4 +136,151 @@ body form:nth-child(3) label {
   color: #969696;
   font-weight: 600;
   margin: 10px 630px;
+}
+
+#loca0 {
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#loca1 {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+}
+
+#loca2 {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  font-size: 20px;
+}
+
+#loca3 {
+  text-decoration: none;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+}
+
+#loca4 {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+}
+
+#loca5 {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+}
+
+footer section {
+  padding-left: 300px;
+  position: relative;
+}
+img.img1 {
+  float: left;
+  width: 400px;
+  height: 370px;
+
+  margin-left: -111px;
+}
+#textimg1 {
+  font-weight: bolder;
+  color: white;
+  float: right;
+  padding-left: 332px;
+  margin-block-start: -342px;
+  padding-right: 20px;
+}
+
+img.img2 {
+  float: right;
+  width: 450px;
+  height: 370px;
+  margin-right: 150px;
+  padding-top: 34px;
+}
+
+#textimg2 {
+  font-weight: bolder;
+  color: white;
+  float: left;
+  padding-left: 0px;
+  margin-block-start: -352px;
+  padding-right: 652px;
+  margin-left: -110px;
+}
+
+img.img3 {
+  float: left;
+  width: 400px;
+  height: 370px;
+  padding-top: 33px;
+  margin-left: -111px;
+}
+#textimg3 {
+  font-weight: bolder;
+  color: white;
+  float: right;
+  padding-left: 332px;
+  margin-block-start: -342px;
+  padding-right: 20px;
+}
+
+img.img4 {
+  float: right;
+  width: 450px;
+  height: 370px;
+  margin-right: 150px;
+  padding-top: 34px;
+}
+
+#textimg4 {
+  font-weight: bolder;
+  color: white;
+  float: left;
+  padding-left: 0px;
+  margin-block-start: -352px;
+  padding-right: 652px;
+  margin-left: -110px;
+}
+
+img.img5 {
+  float: left;
+  width: 400px;
+  height: 370px;
+  padding-top: 33px;
+  margin-left: -111px;
+}
+#textimg5 {
+  font-weight: bolder;
+  color: white;
+  float: right;
+  padding-left: 332px;
+  margin-block-start: -342px;
+  padding-right: 20px;
+}
+
+img.img6 {
+  float: right;
+  width: 450px;
+  height: 370px;
+  margin-right: 150px;
+  padding-top: 34px;
+}
+
+#textimg6 {
+  font-weight: bolder;
+  color: white;
+  float: left;
+  padding-left: 0px;
+  margin-block-start: -352px;
+  padding-right: 652px;
+  margin-left: -110px;
 }
